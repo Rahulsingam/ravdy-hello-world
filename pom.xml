@@ -25,8 +25,8 @@
 <distributionManagement>
   <repository>
     <id>nexus</id>
-    <name>Nexus Releases</name>
-    <url>http://http://13.232.78.234:8081/Rahul-Singam/</url>
+    <name>Rahul-Singam</name>
+    <url>http:15.206.187.44/:8081/Rahul-Singam/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
