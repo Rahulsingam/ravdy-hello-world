@@ -23,21 +23,15 @@
     <module>webapp</module>
   </modules>
 <distributionManagement>
-  <repository>
-    <id>nexus</id>
-    <name>Rahul-Singam</name>
-    <url>http:15.206.187.44/:8081/Rahul-Singam/</url>
-  </repository>
-  <snapshotRepository>
-    <id>nexus</id>
-    <name>Nexus Snapshots</name>
-    <url>http://your-nexus-host/repository/maven-snapshots/</url>
-  </snapshotRepository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://15.206.187.44:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://15.206.187.44:8081/repository/maven-releases/</url>
+    </repository>
 </distributionManagement>
-
-
-         
-
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
